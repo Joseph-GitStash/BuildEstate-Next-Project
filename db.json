@@ -1,0 +1,142 @@
+
+{
+"listData": [
+    {
+      "id": 1,
+      "agent": "John Doe",
+      "agentImg": "user1",
+      "title": "Boston Apartment",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo repellendus est aceat doloribus asperiores, pariatur rerum quod corporis eum ad culpa quasi, nemo animi assumenda expedita, natus error. Eum ratione quas rem similique eveniet fuga culpa ullam doloremque!",
+      "images": ["/assets/properties/a1.jpg",
+                 "/assets/properties/a2.jpg",
+                 "/assets/properties/a3.jpg",
+                 "/assets/properties/a4.jpg"
+      ],
+      "bedroom": 2,
+      "bathroom": 1,
+      "type": "Rent",
+      "price": 3000,
+      "address": "456 Park Avenue, London"
+    },
+    {
+      "id": 2,
+      "agent": "Jane Benneth",
+      "agentImg": "user2",
+      "title": "Modern Loft",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo repellendus est aceat doloribus asperiores, pariatur rerum quod corporis eum ad culpa quasi, nemo animi assumenda expedita, natus error. Eum ratione quas rem similique eveniet fuga culpa ullam doloremque!",
+      "images": ["/assets/properties/b1.jpg",
+                 "/assets/properties/b2.jpg",
+                 "/assets/properties/b3.jpg",
+                 "/assets/properties/b2.jpg"
+      ],
+      "bedroom": 3,
+      "bathroom": 2,
+      "type": "Sale",
+      "price": 2500000,
+      "address": "789 Oxford Street, London"
+    },
+    {
+      "id": 3,
+      "agent": "Isaac Ray",
+      "agentImg": "user3",
+      "title": "Private Duplex",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo repellendus est aceat doloribus asperiores, pariatur rerum quod corporis eum ad culpa quasi, nemo animi assumenda expedita, natus error. Eum ratione quas rem similique eveniet fuga culpa ullam doloremque!",
+      "images": ["/assets/properties/c1.jpg",
+                 "/assets/properties/c2.jpg",
+                 "/assets/properties/c3.jpg",
+                 "/assets/properties/c4.jpg"
+      ],
+      "bedroom": 1,
+      "bathroom": 1,
+      "type": "Rent",
+      "price": 5000,
+      "address": "101 Baker Street, London"
+    },
+    {
+      "id": 4,
+      "agent": "Sarah Mitchell",
+      "agentImg": "user4",
+      "title": "Cabin Getaway",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo repellendus est aceat doloribus asperiores, pariatur rerum quod corporis eum ad culpa quasi, nemo animi assumenda expedita, natus error. Eum ratione quas rem similique eveniet fuga culpa ullam doloremque!",
+      "images": ["/assets/properties/d1.jpg",
+                 "/assets/properties/d2.jpg",
+                 "/assets/properties/d3.jpg",
+                 "/assets/properties/g1.jpg"
+      ],
+      "bedroom": 2,
+      "bathroom": 1,
+      "type": "Rent",
+      "price": 2000,
+      "address": "234 Kingsway, London,"
+    },
+    {
+      "id": 5,
+      "agent": "Kevin Woo",
+      "agentImg": "user5",
+      "title": "Victoria Apartment",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo repellendus est aceat doloribus asperiores, pariatur rerum quod corporis eum ad culpa quasi, nemo animi assumenda expedita, natus error. Eum ratione quas rem similique eveniet fuga culpa ullam doloremque!",
+      "images": ["/assets/properties/e1.jpg",
+                 "/assets/properties/e2.jpg",
+                 "/assets/properties/e3.jpg",
+                 "/assets/properties/e4.jpg"
+      ],
+      "bedroom": 3,
+      "bathroom": 2,
+      "type": "Rent",
+      "price": 2500,
+      "address": "567 Victoria Road, London"
+    },
+    {
+      "id": 6,
+      "agent": "Isaac Ray",
+      "agentImg": "user3",
+      "title": "Private Beach House",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo repellendus est aceat doloribus asperiores, pariatur rerum quod corporis eum ad culpa quasi, nemo animi assumenda expedita, natus error. Eum ratione quas rem similique eveniet fuga culpa ullam doloremque!",
+      "images": ["/assets/properties/f1.jpg",
+                 "/assets/properties/f2.jpg",
+                 "/assets/properties/f3.jpg",
+                 "/assets/properties/i2.jpg"
+      ],
+      "bedroom": 1,
+      "bathroom": 1,
+      "type": "Sale",
+      "price": 470000,
+      "address": "890 Regent Street, London"
+    },
+    {
+      "id": 7,
+      "agent": "John Doe",
+      "agentImg": "user1",
+      "title": "Cabin Duplex House",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo repellendus est aceat doloribus asperiores, pariatur rerum quod corporis eum ad culpa quasi, nemo animi assumenda expedita, natus error. Eum ratione quas rem similique eveniet fuga culpa ullam doloremque!",
+      "images": ["/assets/properties/g1.jpg",
+                 "/assets/properties/g2.jpg",
+                 "/assets/properties/g3.jpg",
+                 "/assets/properties/g4.jpg"
+      ],
+      "bedroom": 2,
+      "bathroom": 1,
+      "type": "Rent",
+      "price": 1000,
+      "address": "112 Piccadilly, London"
+    },
+    {
+      "id": 8,
+      "agent": "Jane Benneth",
+      "agentImg": "user2",
+      "title": "Newly Built Cabin",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo repellendus est aceat doloribus asperiores, pariatur rerum quod corporis eum ad culpa quasi, nemo animi assumenda expedita, natus error. Eum ratione quas rem similique eveniet fuga culpa ullam doloremque!",
+      "images": ["/assets/properties/i1.jpg",
+                 "/assets/properties/i2.jpg",
+                 "/assets/properties/i3.jpg",
+                 "/assets/properties/h3.jpg"
+      ],
+      "bedroom": 3,
+      "bathroom": 2,
+      "type": "Sale",
+      "price": 250000,
+      "address": "8765 Main High Street, London"
+    }
+  ]
+}
+  
