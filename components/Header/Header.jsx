@@ -7,7 +7,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import MobileMenu from "./MobileMenu"
 
-
+ 
 const Header = () => {
   const path = usePathname()
   return (
@@ -27,8 +27,11 @@ const Header = () => {
                 
               </div>
             </div>
+            
             <div className="flex gap-5 flex-[1] items-center justify-end ">
-              <Link href="/developer" className={`${path === "/developer" ? "bg-gradient-to-l from-[#9fa9ff] to-[#4059db] text-transparent bg-clip-text" : "text-white/85"} devBtn `}>Developer</Link>
+              <Link href="/developer" className={`${path === "/developer" ? "bg-gradient-to-l from-[#9fa9ff] to-[#4059db] text-transparent bg-clip-text" : "text-white/85"} devBtn `}>
+                Developer
+              </Link>
               <div className='md:hidden z-[1000]'>  
                 <MobileMenu Links={navLinks} />
               </div>

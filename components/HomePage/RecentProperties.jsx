@@ -9,9 +9,12 @@ import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules'
+import 'swiper/css/navigation';
+
+import { Pagination, Navigation } from 'swiper/modules'
 
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 
 const RecentProperties = () => {
   const { properties } = useContext(PropertyContext);
@@ -57,15 +60,18 @@ const RecentProperties = () => {
         {filteredProperties.length > 0 ? (
             <Swiper slidesPerView={1} 
                     spaceBetween={20}
-                    pagination={{clickable: true}}
+                    navigation={{
+                        prevEl: '.prev',
+                        nextEl: '.next',
+                      }}
                     breakpoints={{
                         640: { slidesPerView: 2 },
                         768: { slidesPerView: 3 },
                         1024:{ slidesPerView: 4 },
                         1310:{ slidesPerView: 4 },
                     }} 
-                    modules={[Pagination]}
-                    className="h-[400px]"
+                    modules={[Navigation]}
+                    className="h-[330px]"
                     >
             {filteredProperties.map((property, index) => (
                 <SwiperSlide key={index}>
@@ -76,6 +82,13 @@ const RecentProperties = () => {
             ) : (
                <SkeletonGrid itemCount={4} ></SkeletonGrid>
         )}
+
+        <div className="flex justify-end gap-7">
+
+            <ArrowLeft className="prev text-white/45 border rounded-full flex items-center justify-center w-[40px] h-[40px] text-[7rem] px-2 py-2 hover:text-white cursor-pointer transition-colors" />
+
+            <ArrowRight size={34} className="next text-white/45 border rounded-full flex items-center justify-center w-[40px] h-[40px] text-[7rem] px-2 py-2 hover:text-white cursor-pointer transition-colors" />
+        </div>
     </section>
     
   )
